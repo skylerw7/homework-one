@@ -1,0 +1,20 @@
+/* Styles for your homework one assignment */
+
+.martini iframe{width:100vw;height:100vh;z-index:1;}
+.body {position: absolute;}
+.martini {top:0px;}
+body {background-color:black;}
+
+.coverright {background-color:black;z-index:50;position: absolute; right:0px;height:100vh;width:100px;top:0px;}
+.coverleft {background-color:black;z-index:50;position: absolute; left:0px;height:100vh;width:100px;top:0px;}
+
+.coverbottom {background-color:black;z-index:50;position: absolute; right:0px;bottom:0px;height:15%;width:100vw;}
+
+.drinkname {box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 51;top:70%;margin-left:43%;height:50px;}
+.drinkname h1{color: white;font-family: 'Amatic SC', cursive;font-size:150px;}
+
+

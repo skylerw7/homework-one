@@ -1,1 +1,136 @@
 /* Styles for your homework one assignment */
+
+.martini iframe {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.body {
+    position: absolute;
+}
+
+.martini {
+    top: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.coverright {
+    background-color: black;
+    z-index: 50;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    width: 100px;
+    top: 0px;
+}
+
+.coverleft {
+    background-color: black;
+    z-index: 50;
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    width: 100px;
+    top: 0px;
+}
+
+.coverbottom {
+    background-color: black;
+    z-index: 50;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 15%;
+    width: 100vw;
+}
+
+.drinkname {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 51;
+    top: 72vh;
+    margin-left: 35%;
+    height: 10px;
+    width: 500px;
+}
+
+.drinkname h1 {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
+
+.drinkname p {
+    position: absolute;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    top: 140px
+}
+
+.home, button {
+    right: 250px;
+    position: absolute;
+    top: 85vh;
+    height: 30px;
+    ;
+    z-index: 55;
+    padding: 5px 20px 20px 20px;
+    width: 150px;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border-style: dashed;
+    color: white;
+   }
+
+   a {
+       font-family: 'Amatic SC', cursive;
+       font-size: 33px;
+       text-decoration: none;
+       color: white;
+   }
+
+   .nav {
+       
+       margin: auto;
+       margin-top: 150px;
+       height: 580px;
+       z-index: 55;
+       max-width: 90%;
+       border-radius: 10px;
+/*       border-style: dashed;*/
+       color: white;
+   }
+
+   .wine img {
+      max-width: 30%;
+       width: auto;
+      float:left;margin-left:40px;margin-right:35px;
+   }
+
+   .beer img {
+       max-width: 30%;
+    float:left;
+       margin-right:35px;
+   }
+
+   .martini img {
+        max-width: 30%;
+    float:left;
+       margin-right:35px;
+   }
+
+   h3 {
+       font-family: 'Amatic SC', cursive;
+       font-size: 83px;
+       text-decoration: none;
+       color: white;
+   }
+.welcome {position:relative;bottom:5%;text-align: center;color:white;z-index:30;pointer-events: none;}
